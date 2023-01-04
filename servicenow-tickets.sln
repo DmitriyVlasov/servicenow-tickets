@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1F8158D5-185B-4D3E-975F-8864ED9CAE96}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Tickets.Core", "src\Tickets.Core\Tickets.Core.fsproj", "{008FD266-62AE-4CBB-B333-604DCF16F872}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Tickets.Convertor", "src\Tickets.Convertor\Tickets.Convertor.fsproj", "{242D2B0D-FC6A-4DAE-9E4D-FF6658D24E0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{008FD266-62AE-4CBB-B333-604DCF16F872}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{008FD266-62AE-4CBB-B333-604DCF16F872}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{008FD266-62AE-4CBB-B333-604DCF16F872}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{008FD266-62AE-4CBB-B333-604DCF16F872}.Release|Any CPU.Build.0 = Release|Any CPU
+		{242D2B0D-FC6A-4DAE-9E4D-FF6658D24E0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{242D2B0D-FC6A-4DAE-9E4D-FF6658D24E0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{242D2B0D-FC6A-4DAE-9E4D-FF6658D24E0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{242D2B0D-FC6A-4DAE-9E4D-FF6658D24E0D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{008FD266-62AE-4CBB-B333-604DCF16F872} = {1F8158D5-185B-4D3E-975F-8864ED9CAE96}
+		{242D2B0D-FC6A-4DAE-9E4D-FF6658D24E0D} = {1F8158D5-185B-4D3E-975F-8864ED9CAE96}
+	EndGlobalSection
+EndGlobal
